@@ -46,3 +46,9 @@ pre {
     overflow: hidden;
     overflow-y: auto;
 }
+.text-wrap {
+    * {
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+}

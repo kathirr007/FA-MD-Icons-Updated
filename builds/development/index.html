@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description"
         content="Guide to get latest Material Icons & FontAwesome Pro Icons to work for your Local Developement Environments" />
     <meta name="keywords" content='"fonts", "icons", "icon fonts", "FontAwesome""material-icons class",
@@ -873,6 +875,10 @@
         "fontawesomefx 9 jar",
         "font awesome ie9"' />
     <title>Latest FontAwesome pro icons & Latest Material-Icons All themes</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <!-- <link rel="stylesheet" href="./css/all.css"> -->
     <!-- <link rel="stylesheet" href="./css/pro.min.css"> -->
     <link rel="stylesheet" href="./css/prism.css">
@@ -920,672 +926,693 @@
 </head>
 
 <body>
-    <h1 id="latest-fontawesome-icons--material-icons">Latest FontAwesome-Icons / Material-Icons <small>Guide to get
-            latest Material Icons & FontAwesome Pro Icons to work for your Local Developement Environments</small>
-    </h1>
-    <h3 id="to-check-the-latest-fonts">To check the latest fonts click <a href="./icons-test.html"
-            target="_blank">here</a></h3>
-    <p>open index.html and see working icons</p>
-    <h2 id="guide-to-get-latest-material-icons-for-your-local-develeopment-environment-or-for-self-hosting">Guide to Get
-        latest Material-Icons for your local Develeopment Environment or for Self hosting.</h2>
-    <h3 id="material-icons-regular">Material Icons Regular</h3>
-    <p>Filenames are always the same. Each file has its unique last char + filetype:</p>
-    <p>&quot;<strong>flUhRq6tzZclQEJ-Vdg-IuiaDsN</strong>&quot; + [ <strong>Y</strong>.eot | <strong>c</strong>.woff2 |
-        <strong>a</strong>.woff | <strong>Z</strong>.ttf ]</p>
+    <div class="container-fluid">
+        <h1 id="latest-fontawesome-icons--material-icons">Latest FontAwesome-Icons / Material-Icons <small>Guide to get
+                latest Material Icons & FontAwesome Pro Icons to work for your Local Developement Environments</small>
+        </h1>
+        <h3 id="to-check-the-latest-fonts">To check the latest fonts click <a href="./icons-test.html"
+                target="_blank">here</a></h3>
+        <h2 id="guide-to-get-latest-material-icons-for-your-local-develeopment-environment-or-for-self-hosting">Guide to
+            Get
+            latest Material-Icons for your local Develeopment Environment or for Self hosting.</h2>
+        <h3 id="material-icons-regular">Material Icons Regular</h3>
+        <p>Filenames are always the same. Each file has its unique last char + filetype:</p>
+        <p class="filename-tricks text-wrap">&quot;<strong>flUhRq6tzZclQEJ-Vdg-IuiaDsN</strong>&quot; + [ <strong>Y</strong>.eot |
+            <strong>c</strong>.woff2 |
+            <strong>a</strong>.woff | <strong>Z</strong>.ttf ]</p>
 
-    <pre class="prism-code-block">
-        <code class="language-html">
-https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2
-https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNY.eot
-https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.woff
-https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNZ.ttf</code>
-    </pre>
-    <p>For future updates, just check the lastest version available from here:<br><a
-            href="https://fonts.googleapis.com/icon?family=Material+Icons">https://fonts.googleapis.com/icon?family=Material+Icons</a>
-    </p>
-    <p>Replace the old version number with the new one.</p>
-    <h3 id="material-icons-outlined">Material Icons Outlined</h3>
-    <p>Filenames are always the same. Each file has its unique last char + filetype: </p>
-    <p>&quot;<strong>gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUc</strong>&quot; + [ <strong>e</strong>.woff2 |
-        <strong>a</strong>.eot | <strong>Y</strong>.woff | <strong>d</strong>.otf ]</p>
-    <pre><code class="language-html">https://fonts.gstatic.com/s/materialiconsoutlined/v13/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2
-https://fonts.gstatic.com/s/materialiconsoutlined/v13/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUca.eot
-https://fonts.gstatic.com/s/materialiconsoutlined/v13/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcY.woff
-https://fonts.gstatic.com/s/materialiconsoutlined/v13/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcd.otf</code></pre>
-    <p>For future updates, just check the lastest version available from here:<br><a
-            href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined">https://fonts.googleapis.com/css?family=Material+Icons+Outlined</a>
-    </p>
-    <p>Replace the old version number with the new one.</p>
-    <h3 id="material-icons-round">Material Icons Round</h3>
-    <p>Filenames are always the same. Each file has its unique last char + filetype: </p>
-    <p>&quot;<strong>LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwm</strong>&quot; + [ <strong>P</strong>.woff2 |
-        <strong>L</strong>.eot | <strong>J</strong>.woff | <strong>M</strong>.otf ]</p>
-    <pre><code class="language-html">https://fonts.gstatic.com/s/materialiconsround/v13/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmP.woff2
-https://fonts.gstatic.com/s/materialiconsround/v13/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmL.eot
-https://fonts.gstatic.com/s/materialiconsround/v13/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmJ.woff
-https://fonts.gstatic.com/s/materialiconsround/v13/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmM.otf</code></pre>
-    <p>For future updates, just check the lastest version available from here:<br><a
-            href="https://fonts.googleapis.com/css?family=Material+Icons+Round">https://fonts.googleapis.com/css?family=Material+Icons+Round</a>
-    </p>
-    <p>Replace the old version number with the new one.</p>
-    <h3 id="material-icons-sharp">Material Icons Sharp</h3>
-    <p>Filenames are always the same. Each file has its unique last char + filetype: </p>
-    <p>&quot;<strong>oPWQ_lt5nv4pWNJpghLP75WiFR4kLh3kvmv</strong>&quot; + [ <strong>R</strong>.woff2 |
-        <strong>V</strong>.eot | <strong>X</strong>.woff | <strong>S</strong>.ttf ]</p>
-    <pre><code class="language-html">https://fonts.gstatic.com/s/materialiconssharp/v14/oPWQ_lt5nv4pWNJpghLP75WiFR4kLh3kvmvR.woff2
-https://fonts.gstatic.com/s/materialiconssharp/v14/oPWQ_lt5nv4pWNJpghLP75WiFR4kLh3kvmvV.eot
-https://fonts.gstatic.com/s/materialiconssharp/v14/oPWQ_lt5nv4pWNJpghLP75WiFR4kLh3kvmvX.woff
-https://fonts.gstatic.com/s/materialiconssharp/v14/oPWQ_lt5nv4pWNJpghLP75WiFR4kLh3kvmvS.otf</code></pre>
-    <p>For future updates, just check the lastest version available from here:<br><a
-            href="https://fonts.googleapis.com/css?family=Material+Icons+Sharp">https://fonts.googleapis.com/css?family=Material+Icons+Sharp</a>
-    </p>
-    <p>Replace the old version number with the new one.</p>
-    <h3 id="material-icons-two-tone">Material Icons Two Tone</h3>
-    <p>Filenames are always the same. Each file has its unique last char + filetype: </p>
-    <p>&quot;<strong>hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNCu</strong>&quot; + [ <strong>0</strong>.woff2 |
-        <strong>w</strong>.eot | <strong>y</strong>.woff | <strong>3</strong>.ttf ]</p>
-    <pre><code class="language-html">https://fonts.gstatic.com/s/materialiconstwotone/v12/hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNCu0.woff2
-https://fonts.gstatic.com/s/materialiconstwotone/v12/hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNCuw.eot
-https://fonts.gstatic.com/s/materialiconstwotone/v12/hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNCuy.woff
-https://fonts.gstatic.com/s/materialiconstwotone/v12/hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNCu3.otf</code></pre>
-    <p>For future updates, just check the lastest version available from here:<br><a
-            href="https://fonts.googleapis.com/css?family=Material+Icons+Two+Tone">https://fonts.googleapis.com/css?family=Material+Icons+Two+Tone</a>
-    </p>
-    <p>Replace the old version number with the new one.</p>
-    <h2 id="guide-to-use-fontawesome-icons-in-your-local-develeopment-environment">Guide to use FontAwesome Icons in
-        your local Develeopment Environment.</h2>
-    <ul>
-        <li>
-            <p>Visit the FontAwesome icons page <a
-                    href="https://fontawesome.com/icons?d=gallery">https://fontawesome.com/icons?d=gallery</a></p>
-        </li>
-        <li>
-            <p>Inspect using chrome devtools and navigate to sources tab, in that find any directory with the name
-                containing &quot;pro&quot;, eg:&quot;pro-next.fontawesome.com&quot;</p>
-        </li>
-        <li>
-            <p>Inside that you will get the latest releases files like &quot;css&quot; &amp; &quot;webfonts&quot;</p>
-        </li>
-        <li>
-            <p>In &quot;css&quot; directory you can find &quot;all.css&quot; or &quot;pro.min.css&quot; and in
-                &quot;webfonts&quot; directory you can find font files</p>
-        </li>
-        <li>
-            <p>Now you know what to do to get things work in local Develeopment.</p>
-        </li>
-    </ul>
-    <h3 id="hint-to-download-all-webfonts-at-once">Hint to download all webfonts at once</h3>
-    <ul>
-        <li>Use Internet Download Manager to download all at once.</li>
-        <li>Copy the links below </li>
-    </ul>
-    <pre><code class="language-html">https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-brands-400.eot
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-brands-400.svg
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-brands-400.ttf
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-brands-400.woff
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-brands-400.woff2
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-light-300.eot
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-light-300.svg
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-light-300.ttf
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-light-300.woff
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-light-300.woff2
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-regular-400.eot
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-regular-400.svg
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-regular-400.ttf
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-regular-400.woff
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-regular-400.woff2
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.eot
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.svg
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.ttf
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.woff
-https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.woff2</code></pre>
-    <p>for latest as of Sep&#39;19</p>
-    <pre><code class="language-html">https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.3.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.3.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.3.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.3.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.3.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.5.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.5.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.5.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.5.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.5.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.7.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.7.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.7.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.7.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.7.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.9.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.9.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.9.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.9.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.9.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.10.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.10.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.10.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.10.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.10.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.11.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.11.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.11.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.11.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.11.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.13.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.13.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.13.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.13.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.13.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.2.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.2.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.2.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.2.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.2.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.3.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.3.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.3.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.3.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.3.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.5.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.5.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.5.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.5.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.5.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.3.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.3.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.3.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.3.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.3.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.2.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.2.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.2.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.2.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.2.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.9.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.9.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.9.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.9.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.9.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.2.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.2.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.2.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.2.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.2.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.3.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.5.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.7.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.9.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.10.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.11.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.13.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.2.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.3.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.3.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.2.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.9.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.3.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.5.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.7.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.9.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.10.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.11.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.13.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.2.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.3.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.3.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.2.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.9.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.3.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.5.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.7.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.9.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.10.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.11.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.13.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.2.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.3.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.3.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.2.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.9.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.3.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.5.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.7.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.9.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.10.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.11.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.13.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.2.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.3.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.3.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.2.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.9.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.3.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.5.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.7.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.9.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.10.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.11.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.13.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.2.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.3.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.3.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.2.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.9.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.2.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.2.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.2.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.2.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.2.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.3.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.5.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.7.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.9.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.10.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.11.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.13.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.2.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.3.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.3.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.2.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.9.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.3.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.5.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.7.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.9.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.10.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.11.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.13.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.2.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.3.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.3.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.2.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.3.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.5.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.7.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.9.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.10.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.11.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.13.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.2.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.3.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.3.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.2.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.9.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.3.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.5.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.7.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.9.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.10.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.11.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.13.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.2.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.3.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.3.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.2.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.9.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.3.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.5.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.7.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.9.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.10.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.11.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.13.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.2.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.3.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.3.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.2.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.9.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.2.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.2.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.2.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.2.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.2.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.5.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.7.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.9.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.10.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.11.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.2.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.3.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.6.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.8.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.9.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.5.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.7.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.9.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.10.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.11.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.2.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.3.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.6.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.8.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.9.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.5.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.7.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.9.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.10.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.11.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.2.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.3.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.6.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.8.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.9.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.5.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.7.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.9.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.10.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.11.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.2.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.3.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.6.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.8.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.9.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.5.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.7.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.9.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.10.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.11.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.2.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.3.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.6.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.8.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.9.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.2.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.2.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.2.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.2.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.2.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.2.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.2.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.2.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.2.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.2.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.2.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.2.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.2.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.2.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.2.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.2.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.2.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.2.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.2.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.2.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.0.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.0.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.0.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.0.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.0.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.1.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.1.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.1.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.1.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.1.woff2
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.2.eot
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.2.svg
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.2.ttf
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.2.woff
-        https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.2.woff2</code></pre>
-    <ul>
-        <li>
-            <p>Now select Tasks --&gt; Add batch download from clipboard</p>
-        </li>
-        <li>
-            <p>Check All and download at once</p>
-        </li>
-        <li>
-            <p>For future releases just change the version number and download them</p>
-        </li>
-    </ul>
-    <p>... Enjoy FontAwesome Pro Icons ....</p>
+        <pre class="prism-code-block">
+                <code class="language-html">
+        https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2
+        https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNY.eot
+        https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.woff
+        https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNZ.ttf</code>
+            </pre>
+        <p>For future updates, just check the lastest version available from here:<br><a
+                href="https://fonts.googleapis.com/icon?family=Material+Icons">https://fonts.googleapis.com/icon?family=Material+Icons</a>
+        </p>
+        <p>Replace the old version number with the new one.</p>
+        <h3 id="material-icons-outlined">Material Icons Outlined</h3>
+        <p>Filenames are always the same. Each file has its unique last char + filetype: </p>
+        <p class="filename-tricks text-wrap">&quot;<strong>gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUc</strong>&quot; + [ <strong>e</strong>.woff2 |
+            <strong>a</strong>.eot | <strong>Y</strong>.woff | <strong>d</strong>.otf ]</p>
+        <pre><code class="language-html">
+        https://fonts.gstatic.com/s/materialiconsoutlined/v13/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2
+        https://fonts.gstatic.com/s/materialiconsoutlined/v13/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUca.eot
+        https://fonts.gstatic.com/s/materialiconsoutlined/v13/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcY.woff
+        https://fonts.gstatic.com/s/materialiconsoutlined/v13/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcd.otf</code></pre>
+        <p>For future updates, just check the lastest version available from here:<br><a
+                href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined">https://fonts.googleapis.com/css?family=Material+Icons+Outlined</a>
+        </p>
+        <p>Replace the old version number with the new one.</p>
+        <h3 id="material-icons-round">Material Icons Round</h3>
+        <p>Filenames are always the same. Each file has its unique last char + filetype: </p>
+        <p class="filename-tricks text-wrap">&quot;<strong>LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwm</strong>&quot; + [ <strong>P</strong>.woff2 |
+            <strong>L</strong>.eot | <strong>J</strong>.woff | <strong>M</strong>.otf ]</p>
+        <pre><code class="language-html">
+        https://fonts.gstatic.com/s/materialiconsround/v13/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmP.woff2
+        https://fonts.gstatic.com/s/materialiconsround/v13/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmL.eot
+        https://fonts.gstatic.com/s/materialiconsround/v13/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmJ.woff
+        https://fonts.gstatic.com/s/materialiconsround/v13/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmM.otf</code></pre>
+        <p>For future updates, just check the lastest version available from here:<br><a
+                href="https://fonts.googleapis.com/css?family=Material+Icons+Round">https://fonts.googleapis.com/css?family=Material+Icons+Round</a>
+        </p>
+        <p>Replace the old version number with the new one.</p>
+        <h3 id="material-icons-sharp">Material Icons Sharp</h3>
+        <p>Filenames are always the same. Each file has its unique last char + filetype: </p>
+        <p class="filename-tricks text-wrap">&quot;<strong>oPWQ_lt5nv4pWNJpghLP75WiFR4kLh3kvmv</strong>&quot; + [ <strong>R</strong>.woff2 |
+            <strong>V</strong>.eot | <strong>X</strong>.woff | <strong>S</strong>.ttf ]</p>
+        <pre><code class="language-html">
+        https://fonts.gstatic.com/s/materialiconssharp/v14/oPWQ_lt5nv4pWNJpghLP75WiFR4kLh3kvmvR.woff2
+        https://fonts.gstatic.com/s/materialiconssharp/v14/oPWQ_lt5nv4pWNJpghLP75WiFR4kLh3kvmvV.eot
+        https://fonts.gstatic.com/s/materialiconssharp/v14/oPWQ_lt5nv4pWNJpghLP75WiFR4kLh3kvmvX.woff
+        https://fonts.gstatic.com/s/materialiconssharp/v14/oPWQ_lt5nv4pWNJpghLP75WiFR4kLh3kvmvS.otf</code></pre>
+        <p>For future updates, just check the lastest version available from here:<br><a
+                href="https://fonts.googleapis.com/css?family=Material+Icons+Sharp">https://fonts.googleapis.com/css?family=Material+Icons+Sharp</a>
+        </p>
+        <p>Replace the old version number with the new one.</p>
+        <h3 id="material-icons-two-tone">Material Icons Two Tone</h3>
+        <p>Filenames are always the same. Each file has its unique last char + filetype: </p>
+        <p class="filename-tricks text-wrap">&quot;<strong>hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNCu</strong>&quot; + [ <strong>0</strong>.woff2 |
+            <strong>w</strong>.eot | <strong>y</strong>.woff | <strong>3</strong>.ttf ]</p>
+        <pre><code class="language-html">
+        https://fonts.gstatic.com/s/materialiconstwotone/v12/hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNCu0.woff2
+        https://fonts.gstatic.com/s/materialiconstwotone/v12/hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNCuw.eot
+        https://fonts.gstatic.com/s/materialiconstwotone/v12/hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNCuy.woff
+        https://fonts.gstatic.com/s/materialiconstwotone/v12/hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNCu3.otf</code></pre>
+        <p>For future updates, just check the lastest version available from here:<br><a
+                href="https://fonts.googleapis.com/css?family=Material+Icons+Two+Tone">https://fonts.googleapis.com/css?family=Material+Icons+Two+Tone</a>
+        </p>
+        <p>Replace the old version number with the new one.</p>
+        <h2 id="guide-to-use-fontawesome-icons-in-your-local-develeopment-environment">Guide to use FontAwesome Icons in
+            your local Develeopment Environment.</h2>
+        <ul>
+            <li>
+                <p>Visit the FontAwesome icons page <a
+                        href="https://fontawesome.com/icons?d=gallery">https://fontawesome.com/icons?d=gallery</a></p>
+            </li>
+            <li>
+                <p>Inspect using chrome devtools and navigate to sources tab, in that find any directory with the name
+                    containing &quot;pro&quot;, eg:&quot;pro-next.fontawesome.com&quot;</p>
+            </li>
+            <li>
+                <p>Inside that you will get the latest releases files like &quot;css&quot; &amp; &quot;webfonts&quot;
+                </p>
+            </li>
+            <li>
+                <p>In &quot;css&quot; directory you can find &quot;all.css&quot; or &quot;pro.min.css&quot; and in
+                    &quot;webfonts&quot; directory you can find font files</p>
+            </li>
+            <li>
+                <p>Now you know what to do to get things work in local Develeopment.</p>
+            </li>
+        </ul>
+        <h3 id="hint-to-download-all-webfonts-at-once">Hint to download all webfonts at once</h3>
+        <ul>
+            <li>Use Internet Download Manager to download all at once.</li>
+            <li>Copy the links below </li>
+        </ul>
+        <pre><code class="language-html">
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-brands-400.eot
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-brands-400.svg
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-brands-400.ttf
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-brands-400.woff
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-brands-400.woff2
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-light-300.eot
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-light-300.svg
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-light-300.ttf
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-light-300.woff
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-light-300.woff2
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-regular-400.eot
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-regular-400.svg
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-regular-400.ttf
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-regular-400.woff
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-regular-400.woff2
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.eot
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.svg
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.ttf
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.woff
+        https://pro-next.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.woff2</code></pre>
+        <p class="font-weight-bold text-center">for latest as of Sep&#39;19</p>
+        <pre><code class="language-html">
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.3.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.3.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.3.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.3.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.3.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.5.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.5.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.5.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.5.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.5.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.7.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.7.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.7.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.7.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.7.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.9.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.9.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.9.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.9.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.9.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.10.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.10.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.10.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.10.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.10.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.11.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.11.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.11.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.11.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.11.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.13.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.13.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.13.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.13.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.0.13.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.1.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.2.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.2.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.2.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.2.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.2.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.3.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.3.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.3.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.3.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.3.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.4.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.5.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.5.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.5.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.5.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.5.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.3.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.3.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.3.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.3.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.6.3.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.7.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.2.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.2.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.2.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.2.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.8.2.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.9.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.9.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.9.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.9.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.9.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.2.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.2.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.2.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.2.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.10.2.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.3.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.5.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.7.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.9.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.10.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.11.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.13.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.2.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.3.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.3.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.2.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.9.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.3.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.5.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.7.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.9.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.10.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.11.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.13.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.2.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.3.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.3.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.2.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.9.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.3.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.5.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.7.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.9.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.10.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.11.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.13.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.2.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.3.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.3.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.2.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.9.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.3.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.5.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.7.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.9.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.10.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.11.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.13.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.2.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.3.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.3.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.2.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.9.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.3.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.5.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.7.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.9.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.10.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.11.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.0.13.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.1.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.2.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.3.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.4.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.6.3.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.7.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.8.2.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.9.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.2.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.2.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.2.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.2.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.10.2.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.3.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.5.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.7.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.9.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.10.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.11.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.13.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.2.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.3.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.3.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.2.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.9.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.3.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.5.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.7.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.9.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.10.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.11.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.13.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.2.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.3.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.3.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.2.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.3.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.5.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.7.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.9.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.10.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.11.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.13.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.2.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.3.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.3.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.2.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.9.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.3.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.5.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.7.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.9.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.10.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.11.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.13.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.2.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.3.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.3.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.2.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.9.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.3.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.5.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.7.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.9.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.10.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.11.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.0.13.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.1.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.2.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.3.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.4.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.6.3.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.7.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.8.2.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.9.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.2.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.2.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.2.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.2.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.10.2.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.5.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.7.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.9.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.10.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.11.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.2.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.3.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.6.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.8.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.9.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.5.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.7.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.9.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.10.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.11.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.2.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.3.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.6.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.8.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.9.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.5.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.7.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.9.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.10.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.11.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.2.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.3.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.6.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.8.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.9.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.5.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.7.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.9.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.10.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.11.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.2.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.3.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.6.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.8.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.9.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.5.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.7.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.9.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.10.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.0.11.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.1.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.2.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.3.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.4.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.6.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.7.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.8.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.9.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.2.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.2.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.2.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.2.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.10.2.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.2.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.2.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.2.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.2.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-duotone-900-pro-5.11.2.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.2.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.2.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.2.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.2.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-light-300-pro-5.11.2.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.2.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.2.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.2.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.2.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-regular-400-pro-5.11.2.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.0.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.0.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.0.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.0.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.0.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.1.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.1.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.1.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.1.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.1.woff2
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.2.eot
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.2.svg
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.2.ttf
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.2.woff
+                https://kit-pro.fontawesome.com/algo/2/webfonts/fa-solid-900-pro-5.11.2.woff2</code></pre>
+        <ul>
+            <li>
+                <p>Now select Tasks --&gt; Add batch download from clipboard</p>
+            </li>
+            <li>
+                <p>Check All and download at once</p>
+            </li>
+            <li>
+                <p>For future releases just change the version number and download them</p>
+            </li>
+        </ul>
+        <p>... Enjoy FontAwesome Pro Icons ....</p>
+    </div>
+
+    <!-- Bootstrap script cdns -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 
     <script src="./js/prism.js"></script>
 

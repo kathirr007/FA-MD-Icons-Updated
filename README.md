@@ -1,9 +1,9 @@
 # Latest FontAwesome-Icons / Material-Icons
-Guide to get latest Material Icons & FontAwesome Pro Icons to work for your Local Developement Environments
+Guide to get latest Google's Material Design Icons & FontAwesome Pro Icons to work for your Local Developement Environments
 
 [![Build Status](https://travis-ci.com/kathirr007/FA-MD-Icons-Updated.svg?branch=master)](https://travis-ci.com/kathirr007/FA-MD-Icons-Updated)
 
-**[Latest FontAwesome-Icons / Material-Icons](git@github.com:kathirr007/FA-MD-Icons-Updated)** is the Guide to get latest Material Icons & FontAwesome Pro Icons to work for your Local Developement Environments.
+**[Latest FontAwesome-Icons / Material-Icons](git@github.com:kathirr007/FA-MD-Icons-Updated)** is the Guide to get latest Google's Material Design Icons & FontAwesome Pro Icons to work for your Local Developement Environments.
 
 For latest working icon fonts please checkout **[here](https://kathirr007.github.io/FA-MD-Icons-Updated/icons-test.html)**
 

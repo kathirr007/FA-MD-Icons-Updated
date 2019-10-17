@@ -1,10 +1,7 @@
 // Include gulp and plugins
 const gulp = require('gulp');
-
 const del = require('del');
-
-// pkg = require('./package.json'),
-
+const pkg = require('./package.json');
 const $ = require('gulp-load-plugins')({
     lazy: true
 });
@@ -12,7 +9,6 @@ const $ = require('gulp-load-plugins')({
 // const htmlInjector = require('bs-html-injector');
 
 const browserSync = require('browser-sync').create();
-
 const reload = browserSync.reload;
 
 // file locations
@@ -33,15 +29,6 @@ let html = {
     },
     watch: ['*.html', '_partials/**/*'],
     out: dest,
-    context: {
-        devBuild: devBuild
-    }
-};
-let b2bhtml = {
-    partials: [source + 'b2b/_partials/**/*'],
-    in: [source + 'b2b/*.html'],
-    watch: [source + 'b2b/*.html', source + 'b2b/_partials/**/*'],
-    out: dest + 'b2b/',
     context: {
         devBuild: devBuild
     }
@@ -79,16 +66,8 @@ let js = {
     out: dest + 'js/'
 }
 
-let syncOpts = {
-    server: {
-        baseDir: dest,
-        index: 'index.html'
-    },
-    open: false,
-    injectChanges: true,
-    reloadDelay: 0,
-    notify: true
-};
+// show build type
+console.log(pkg.name + ' ' + pkg.version + ', ' + (devBuild ? 'development' : 'production') + ' build');
 
 // Clean tasks
 gulp.task('clean', cb => {

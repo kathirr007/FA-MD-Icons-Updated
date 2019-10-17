@@ -1,10 +1,12 @@
 {
-  "name": "fontawesome-icons-pro",
+  "name": "fontawesome-icons-pro-and-material-icons-latest",
   "version": "1.0.0",
   "description": "Guide to use FontAwesome Pro Icons in your local Develeopment Environment.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp",
+    "production": "cross-env NODE_ENV=production gulp build",
     "build": "gulp build"
   },
   "repository": {
@@ -895,6 +897,7 @@
   "homepage": "https://github.com/kathirr007/FontAwesome-Icons-Pro#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
+    "cross-env": "^6.0.3",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",

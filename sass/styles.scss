@@ -2,7 +2,14 @@
 html {
     font-family: Arial;
 }
-
+a {
+    color: #0366d6;
+    text-decoration: none;
+    transition: all .3s;
+    &:hover {
+        text-decoration: underline;
+    }
+}
 [class*='material-'] {
     font-size: 34px;
 }
